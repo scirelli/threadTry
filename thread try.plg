@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: thread try - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPB261.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/thread try.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\My Documents\Visual Studio Projects\thread try\main.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB261.TMP" 
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+c:\my documents\visual studio projects\thread try\trythread.h(3) : fatal error C1083: Cannot open include file: 'win32.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+main.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
